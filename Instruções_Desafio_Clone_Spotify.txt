@@ -1,0 +1,72 @@
+--global
+/*
+A fonte global do página web deve ser roboto e para isso será necessário importar no arquivo html o link com a fonte
+*/
+font-family: "Roboto", sans-serif;
+
+<link
+	href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+	rel="stylesheet"
+/>
+
+/*
+Estes serão os tons de verdes que serão usados no projeto
+Sendo o default-green para a cor do botão que esta no corpo
+E o light-green para o hover dos menus, icones de rede sociais...
+*/
+--root
+:root {
+    --default-green: #1db954;
+    --light-green: #1ed760;
+}
+
+/*
+Na parte de navegação vai ser utilizada justamente este background com esta sombra
+*/
+--navbar
+background-color: rgba(0, 0, 0, 0.6);
+color: #fff; 
+
+
+/*
+As palavras podem ser usados o color branco mesmo
+*/
+--palavras
+background: white;
+
+
+/*
+O footer a parte de background-color o black mesmo
+*/
+--footer
+background: black;
+
+
+/*
+Este script deve ser importaado no final do arquivo html do projeto 
+Ele que é responsável pelo icones de rede social 
+*/
+<!-- Scripts -->
+<script
+	src="https://kit.fontawesome.com/f9e19193d6.js"
+	crossorigin="anonymous">
+</script> 
+
+
+
+/*
+As classes responsáveis por chamar cada um dos icones são estas 
+*/
+fab fa-instagram
+fab fa-twitter
+fab fa-facebook-f
+
+/*
+Aqui esta a documentação do fontawesome se quiser aprofundar mais um pouco 
+*/
+https://fontawesome.com/ documentação do fontawesome
+
+
+Criar um repositório e mandar o link do mesmo para avaliação pode ser no grupo do whatshap
+
+Prazo de Entrega: 06/08/2021			
